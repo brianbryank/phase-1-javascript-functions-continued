@@ -427,7 +427,7 @@ array[1](); //=> 3
 
 The two functions being returned in `array` are **closures**; they have access
 to the `base` variable because it's defined in their parent function. When
-they're executed, they "let out" the values of the sum and the original base
+they're executed, they "let out" the values of the sum and the original base.
 number, allowing us to see them.
 
 ## Define `Scope Chain`
